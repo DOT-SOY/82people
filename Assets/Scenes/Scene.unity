@@ -2625,7 +2625,7 @@ MonoBehaviour:
         NewText: "\uC808\uB300 \uD130\uC838\uC11C \uAC00\uC9C0 \uC54A\uB294 \uAC04\uC7A5\uAC8C\uC7A5.
           182\uC911 \uBF41\uBF41\uC774 \uD3EC\uC7A5\uC744 \uAC70\uCCD0\uC11C \uB2E8
           \uD55C \uBC29\uC6B8\uB3C4 \uC0C8\uC9C0\uC54A\uAC8C \uCC98\uB9AC\uD569\uB2C8\uB2E4.
-          \uC7A5\uC778 \uD55C\uC815\uC2DD \uD560\uBA38\uB2C8\uC758 \uC190\uB9DB\uC744
+          \uC7A5\uC778 \uBC15\uCC2C\uC218 \uD560\uC544\uBC84\uC758 \uC190\uB9DB\uC744
           \uC9C1\uC811 \uB290\uAEF4\uBCF4\uC138\uC694."
     00000001:
       type: {class: MMF_TMPText, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.TextMeshPro}
@@ -2769,7 +2769,7 @@ MonoBehaviour:
         NewText: "\uC808\uB300 \uD130\uC838\uC11C \uAC00\uC9C0 \uC54A\uB294 \uAC04\uC7A5\uAC8C\uC7A5.
           182\uC911 \uBF41\uBF41\uC774 \uD3EC\uC7A5\uC744 \uAC70\uCCD0\uC11C \uB2E8
           \uD55C \uBC29\uC6B8\uB3C4 \uC0C8\uC9C0\uC54A\uAC8C \uCC98\uB9AC\uD569\uB2C8\uB2E4.
-          \uC7A5\uC778 \uD55C\uC815\uC2DD \uD560\uBA38\uB2C8\uC758 \uC190\uB9DB\uC744
+          \uC7A5\uC778 \uBC15\uCC2C\uC218 \uD560\uC544\uBC84\uC9C0\uC758 \uC190\uB9DB\uC744
           \uC9C1\uC811 \uB290\uAEF4\uBCF4\uC138\uC694."
     00000003:
       type: {class: MMF_Image, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
@@ -19093,8 +19093,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294931218
-  m_fontColor: {r: 0.07058824, g: 0.45098042, b: 1, a: 1}
+    rgba: 4287334172
+  m_fontColor: {r: 0.10980393, g: 0.5294118, b: 0.54509807, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -26836,7 +26836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.68316776, g: 1, b: 0.3726415, a: 1}
+  m_Color: {r: 1, g: 0.72313946, b: 0.3726415, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -29561,8 +29561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 250, y: -577.53}
-  m_SizeDelta: {x: 383.41, y: 181.4}
+  m_AnchoredPosition: {x: 250, y: -532.18}
+  m_SizeDelta: {x: 383.41, y: 90.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1269932271
 MonoBehaviour:
@@ -29598,8 +29598,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "JungYeon Han (\uAC00\uC790\uBBF8)\nHyemin Jung\nSeungwoo Lee\nhwang ji
-    in"
+  m_text: "JungYeon Han (\uAC00\uC790\uBBF8)\nhwang ji in"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 605307231291e8a45a1b8e6b76594eb6, type: 2}
   m_sharedMaterial: {fileID: -7326720385824007358, guid: 605307231291e8a45a1b8e6b76594eb6, type: 2}
@@ -29608,8 +29607,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294931218
-  m_fontColor: {r: 0.07058824, g: 0.45098042, b: 1, a: 1}
+    rgba: 4287334172
+  m_fontColor: {r: 0.10980393, g: 0.5294118, b: 0.54509807, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -35507,7 +35506,7 @@ MonoBehaviour:
   BankBadgeInt: 0
   products:
   - ID: "\uB9C8\uB77C\uD0D5"
-    Price: 4000
+    Price: 3000
     Instacontent: "#\uC624\uB298\uC810\uC2EC \uC740 #\uC5ED\uC2DC #\uB9C8\uB77C\uD0D5?<br>
       <br> \uC548\uB155\uD558\uC138\uC694 \uC5EC\uB7EC\uBD84^^!<br> \uD56D\uC0C1
       \uC5EC\uB7EC\uBD84\uB9CC\uC744 \uC704\uD55C \uBB3C\uAC74\uC744 \uACF5\uAD6C\uD558\uB7EC
@@ -46603,31 +46602,6 @@ MonoBehaviour:
       \uC774\uC0C1\uD558\uB2E4. \uCC28\uB2E8\uB41C \uACC4\uC815? \uC5B4\uC9F8\uC11C?"
     EventMoney1: 0
     EventMoney2: -1000
-  - Title: "\uB85C\uBD07\uAC19\uC740 \uB108"
-    Content: "\uBAA8\uB974\uB294 \uBC88\uD638\uB85C \uC5F0\uB77D\uC774 \uC654\uB2E4.
-      \uB204\uAD6C\uC9C0? \uC804\uD654\uB97C \uBC1B\uC73C\uB2C8 \uB531\uB531\uD55C
-      \uBAA9\uC18C\uB9AC\uAC00 \uB4E4\uB824\uC628\uB2E4...<br>\uC11C\uC6B8\uC911\uC559\uC9C0\uAC80
-      \uBC15\uACBD\uCC30 \uC218\uC0AC\uAD00\uC785\uB2C8\uB2E4. \uBA85\uC758 \uB3C4\uC6A9
-      \uC0AC\uAC74\uC5D0 \uC5F0\uB8E8\uB418\uC5B4 \uC5F0\uB77D\uB4DC\uB838\uC2B5\uB2C8\uB2E4.
-      \uC2E0\uC6D0\uC744 \uD655\uC778\uD574\uC57C\uD558\uB2C8 \uC9C0\uAE08 \uB2F9\uC7A5
-      \uC774\uB984\uACFC \uC0DD\uB144\uC6D4\uC77C\uC744 \uB9D0\uC500\uD574\uC8FC\uC138\uC694."
-    Button1Result: "\uC774\uAC8C \uB300\uCCB4 \uBB34\uC2A8 \uC77C\uC774\uC9C0\u3160\u3160?
-      \uB108\uBB34 \uBB34\uC11C\uC6CC\uC11C \uBAA9\uC18C\uB9AC\uAC00 \uB5A8\uB9B0\uB2E4..<br><br>\uB204\uAD6C\uC2E0\uB370\uC694..?\u3160\u3160<br>\uB300\uB2F5.<br>\uB124?
-      <br>\uB300\uB2F5.<br>\uB124? <br>\uB300\uB2F5.<br><br>\uB2F9\uD669\uD574\uC11C
-      \uACC4\uC18D \uAC19\uC740 \uBB38\uB2F5\uC744 \uBC18\uBCF5\uD588\uB354\uB2C8
-      \uC5B4\uB290 \uC21C\uAC04 \uC804\uD654\uB294 \uB04A\uACA8\uC788\uC5C8\uB2E4...\uB300\uCCB4
-      \uBB50\uC600\uC9C0?\u3160\u3160"
-    Button2Result: "\uB2F9\uD669\uC2A4\uB7FD\uC9C0\uB9CC \uC218\uC0AC\uC5D0 \uD611\uC870\uB294
-      \uD574\uC57C\uACA0\uC9C0..? \uB354\uB4EC\uB354\uB4EC \uC218\uC0AC\uAD00\uC5D0
-      \uC9C8\uBB38\uC5D0 \uB300\uB2F5\uD558\uB2C8 \uD611\uC870 \uACE0\uB9D9\uB2E4\uB294
-      \uB9D0\uACFC \uD568\uAED8 \uACE7 \uD1B5\uD654\uAC00 \uC885\uB8CC\uB418\uC5C8\uB2E4. 
-      <br><br>\uADF8\uB9AC\uACE0 \uC7A0\uC2DC \uD6C4...\uB0B4 \uD1B5\uC7A5\uC5D0\uC11C
-      \uD604\uAE08\uC774 \uC778\uCD9C\uB418\uC5C8\uB2E4\uB294 \uBB38\uC790\uAC00
-      \uB3C4\uCC29\uD588\uB2E4. \uC694\uC998\uC740 \uC774\uB7F0 \uBCF4\uC774\uC2A4\uD53C\uC2F1
-      \uBB38\uC790\uAC00 \uB9CE\uC544\uC11C \uBB38\uC81C\uB780 \uB9D0\uC774\uC57C...\uC7A0\uAE50,
-      \uBCF4\uC774\uC2A4\uD53C\uC2F1?"
-    EventMoney1: 0
-    EventMoney2: -2000
   - Title: "\uBC30\uC1A1 \uC624\uB958 \uBB38\uC758"
     Content: "'\uC800\uAE30\uC694 \u3161\u3161; \uC774\uAC8C \uBB50\uC8E0? \uBD84\uBA85
       \uAF3C\uAF3C\uD558\uAC8C \uD3EC\uC7A5\uD574\uC11C \uBCF4\uB0B4\uC8FC\uC2E0\uB2E4\uACE0
@@ -46778,6 +46752,30 @@ MonoBehaviour:
       \uAD50\uD1B5\uBE44\uB9CC \uC783\uAC8C \uB418\uC5C8\uB2E4."
     EventMoney1: 10000
     EventMoney2: -1500
+  - Title: "\uB85C\uBD07\uAC19\uC740 \uB108"
+    Content: "\uBAA8\uB974\uB294 \uBC88\uD638\uB85C \uC5F0\uB77D\uC774 \uC654\uB2E4.
+      \uB204\uAD6C\uC9C0? \uC804\uD654\uB97C \uBC1B\uC73C\uB2C8 \uB531\uB531\uD55C
+      \uBAA9\uC18C\uB9AC\uAC00 \uB4E4\uB824\uC628\uB2E4...<br>\uC11C\uC6B8\uC911\uC559\uC9C0\uAC80
+      \uBC15\uACBD\uCC30 \uC218\uC0AC\uAD00\uC785\uB2C8\uB2E4. \uBA85\uC758 \uB3C4\uC6A9
+      \uC0AC\uAC74\uC5D0 \uC5F0\uB8E8\uB418\uC5B4 \uC5F0\uB77D\uB4DC\uB838\uC2B5\uB2C8\uB2E4.
+      \uC2E0\uC6D0\uC744 \uD655\uC778\uD574\uC57C\uD558\uB2C8 \uC9C0\uAE08 \uB2F9\uC7A5
+      \uC774\uB984\uACFC \uC0DD\uB144\uC6D4\uC77C\uC744 \uB9D0\uC500\uD574\uC8FC\uC138\uC694."
+    Button1Result: "\uC774\uAC8C \uB300\uCCB4 \uBB34\uC2A8 \uC77C\uC774\uC9C0\u3160\u3160?
+      \uB108\uBB34 \uBB34\uC11C\uC6CC\uC11C \uBAA9\uC18C\uB9AC\uAC00 \uB5A8\uB9B0\uB2E4..<br><br>\uB204\uAD6C\uC2E0\uB370\uC694..?\u3160\u3160<br>\uB300\uB2F5.<br>\uB124?
+      <br>\uB300\uB2F5.<br>\uB124?<br><br>\uB2F9\uD669\uD574\uC11C \uACC4\uC18D \uAC19\uC740
+      \uBB38\uB2F5\uC744 \uBC18\uBCF5\uD588\uB354\uB2C8 \uC5B4\uB290 \uC21C\uAC04
+      \uC804\uD654\uB294 \uB04A\uACA8\uC788\uC5C8\uB2E4...\uB300\uCCB4 \uBB50\uC600\uC9C0?\u3160\u3160"
+    Button2Result: "\uB2F9\uD669\uC2A4\uB7FD\uC9C0\uB9CC \uC218\uC0AC\uC5D0 \uD611\uC870\uB294
+      \uD574\uC57C\uACA0\uC9C0..? \uB354\uB4EC\uB354\uB4EC \uC218\uC0AC\uAD00\uC5D0
+      \uC9C8\uBB38\uC5D0 \uB300\uB2F5\uD558\uB2C8 \uD611\uC870 \uACE0\uB9D9\uB2E4\uB294
+      \uB9D0\uACFC \uD568\uAED8 \uACE7 \uD1B5\uD654\uAC00 \uC885\uB8CC\uB418\uC5C8\uB2E4. 
+      <br><br>\uADF8\uB9AC\uACE0 \uC7A0\uC2DC \uD6C4...\uB0B4 \uD1B5\uC7A5\uC5D0\uC11C
+      \uD604\uAE08\uC774 \uC778\uCD9C\uB418\uC5C8\uB2E4\uB294 \uBB38\uC790\uAC00
+      \uB3C4\uCC29\uD588\uB2E4. \uC694\uC998\uC740 \uC774\uB7F0 \uBCF4\uC774\uC2A4\uD53C\uC2F1
+      \uBB38\uC790\uAC00 \uB9CE\uC544\uC11C \uBB38\uC81C\uB780 \uB9D0\uC774\uC57C...\uC7A0\uAE50,
+      \uBCF4\uC774\uC2A4\uD53C\uC2F1?"
+    EventMoney1: 0
+    EventMoney2: -2000
   eventTitles:
   - "\uC73C\uC2A5\uD55C \uACE8\uBAA9"
   - "\uAD00\uC138\uAC00 \uB108\uBB34 \uBE44\uC2F8"
@@ -46790,6 +46788,7 @@ MonoBehaviour:
   - "\uC5EC\uAE30\uB85C \uC785\uAE08\uD574\uC8FC\uC138\uC694"
   - "\uBC30\uC1A1 \uC624\uB958 \uBB38\uC758"
   - "\uC783\uC5B4\uBC84\uB9B0 \uACF5\uAE30\uD31F"
+  encounterCount: 0
 --- !u!114 &1937122977
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -48042,7 +48041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9690a1d3f5d0f9448a2c4615968ad1f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 275bd52847d3c9e4ebf96d804eb5f486, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -49225,7 +49224,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 400, y: -844.44446}
-  m_SizeDelta: {x: 500, y: 668.23}
+  m_SizeDelta: {x: 500, y: 577.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072505072
 MonoBehaviour:
@@ -51118,7 +51117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 400, y: -372.77777}
+  m_AnchoredPosition: {x: 400, y: -372.77783}
   m_SizeDelta: {x: 500, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105749893
@@ -53657,7 +53656,7 @@ MonoBehaviour:
         Owner: {fileID: 1897779664773000391}
         DebugActive: 0
         TargetTMPText: {fileID: 1007098773}
-        NewText: "4000\uC6D0"
+        NewText: "3000\uC6D0"
     00000002:
       type: {class: MMF_Image, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks}
       data:
@@ -55672,20 +55671,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8421870749572872202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8421870749572872367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalFit: 0
-  m_VerticalFit: 2
 --- !u!114 &8421870749572872205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55892,7 +55877,7 @@ MonoBehaviour:
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_fontSizeMin: 28
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
@@ -56046,8 +56031,8 @@ GameObject:
   - component: {fileID: 8421870749572872431}
   - component: {fileID: 8421870749572872444}
   - component: {fileID: 8421870749572872248}
-  - component: {fileID: 8421870749572872202}
   - component: {fileID: 8421870749572872249}
+  - component: {fileID: 8421870749572872368}
   m_Layer: 5
   m_Name: "\uC774\uBCA4\uD2B8 \uB0B4\uC6A9"
   m_TagString: Untagged
@@ -56055,6 +56040,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8421870749572872368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8421870749572872367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
 --- !u!1 &8421870749572872369
 GameObject:
   m_ObjectHideFlags: 0
@@ -56197,7 +56196,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 700, y: 681.64}
+  m_SizeDelta: {x: 700, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8421870749572872444
 CanvasRenderer:

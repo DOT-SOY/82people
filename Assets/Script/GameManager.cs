@@ -236,6 +236,8 @@ public class GameManager : MonoBehaviour
 
         money = 20000; // 초기 소지금 설정
         didTutorialComplete = false; // 튜토리얼 완료 여부 초기화
+        //EventManager.Instance.encounterCount = 0;
+
         if (ScriptManager.Instance != null)
         {
             ScriptManager.Instance.tutorId = 0;

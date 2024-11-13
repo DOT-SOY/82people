@@ -26,6 +26,8 @@ public class EventData
 
 public class EventManager : MonoBehaviour
 {
+    public static EventManager Instance;
+
     public GameObject OkayButton;
     public GameObject EventPopup;
 
@@ -42,7 +44,7 @@ public class EventManager : MonoBehaviour
 
     public List<string> eventTitles = new List<string>();
     public List<string> guaranteedEventTitles = new List<string>();
-    private int encounterCount = 0;
+    public int encounterCount = 0;
 
     public void DisplayEvent(string eventTitle)
     {
@@ -80,28 +82,34 @@ public class EventManager : MonoBehaviour
     {
         if (currentEventData != null)
         {
-            eventAnimator.SetTrigger("열기");
             EventTitle.text = "진행하지 않기로 결정했다.";
             EventText.text = currentEventData.Button1Result;
+
+            eventAnimator.SetTrigger("열기");
 
             ProcessEventMoney(currentEventData.EventMoney1);
         }
         Buttons.SetActive(false);
         OkayButton.SetActive(true);
+
+        Canvas.ForceUpdateCanvases();
     }
 
     public void OnLikeButtonClicked()
     {
         if (currentEventData != null)
         {
-            eventAnimator.SetTrigger("열기");
             EventTitle.text = "진행하기로 결정했다.";
             EventText.text = currentEventData.Button2Result;
+
+            eventAnimator.SetTrigger("열기");
 
             ProcessEventMoney(currentEventData.EventMoney2);
         }
         Buttons.SetActive(false);
         OkayButton.SetActive(true);
+
+        Canvas.ForceUpdateCanvases();
     }
 
     public void OnOkayButtonClicked()
@@ -143,23 +151,27 @@ public class EventManager : MonoBehaviour
 
     public void RandomEncounter()
     {
-        bool guaranteedEventTriggered = GuaranteedEncounter(); // 확정 인카운터 체크 후 플래그 반환
-
-        if (guaranteedEventTriggered || EventPopup.activeSelf) // 확정 이벤트 발생 시 또는 이미 이벤트 창이 열려있는 경우 랜덤 인카운터 방지
-            return;
-
-        int diceRoll = UnityEngine.Random.Range(1, 11);
-
-        if (diceRoll < 2)
+        if (GameManager.Instance.didTutorialComplete == true)
         {
-            if (eventTitles.Count > 0)
+            bool guaranteedEventTriggered = GuaranteedEncounter(); // 확정 인카운터 체크 후 플래그 반환
+
+            if (guaranteedEventTriggered || EventPopup.activeSelf)
+                return;
+            // 확정 이벤트 발생 시 또는 이미 이벤트 창이 열려있는 경우 랜덤 인카운터 방지
+
+            int diceRoll = UnityEngine.Random.Range(1, 21);
+
+            if (diceRoll < 2)
             {
-                string randomEventTitle = eventTitles[UnityEngine.Random.Range(0, eventTitles.Count)];
-                DisplayEvent(randomEventTitle);
-            }
-            else
-            {
-                Debug.Log("이벤트 제목 리스트가 비어 있습니다.");
+                if (eventTitles.Count > 0)
+                {
+                    string randomEventTitle = eventTitles[UnityEngine.Random.Range(0, eventTitles.Count)];
+                    DisplayEvent(randomEventTitle);
+                }
+                else
+                {
+                    Debug.Log("이벤트 제목 리스트가 비어 있습니다.");
+                }
             }
         }
     }
